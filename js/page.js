@@ -51,7 +51,7 @@ $(document).ready(function(){
     $(".logo").css("display", "none");
     $(".trailer").css("display", "block");
 
-    $('#trailerWrapper').html('<iframe id="trailerFrame" width="420" height="315" src="http://www.youtube.com/embed/'+
+    $('#trailerWrapper').html('<iframe id="trailerFrame" width="420" height="315" src="https://www.youtube.com/embed/'+
       vidId+'?enablejsapi=1&autoplay=1&autohide=1&showinfo=0" '+
       'frameborder="0" allowfullscreen></iframe>');
 
