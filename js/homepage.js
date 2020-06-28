@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    //document.location = document.location.HREF+"?code=35792";
+    document.location = document.location.HREF+"?code=35792";
 
     id = 1;
 
