@@ -1,0 +1,60 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+
+    padding: 0;
+    margin-top: 0;
+    list-style-type: none;
+
+    margin-bottom: 3px;
+}
+
+li {
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 0px 2%;
+}
+
+nav {
+    display: block;
+
+    width: 100%;
+    background-color: #eae8e1;
+
+    top: 0;
+
+    position: fixed;
+
+    z-index: 999;
+}
+
+* {
+    box-sizing: border-box;
+
+    color: black;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 30px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    top: 0;
+}

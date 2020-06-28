@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>The Progress Report</title>
+        <meta charset="UTF-8">
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                background-color: #eae8e1;
+
+                text-align: center;
+            }
+
+            #loadingBar {
+                display: block;
+
+                width: 80%;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                border: 3px black solid;
+
+                height: 60px;
+
+                margin-top: 45vh;
+            }
+
+            #inner {
+                position: relative;
+
+                width: 38%;
+                height: 90%;
+                background-color: black;
+                margin: .2vh;
+            }
+
+            p {
+                font-size: 60px;
+
+                margin-left: auto;
+                margin-right: auto;
+
+                font-family: 'Noto Sans SC', sans-serif;
+
+                color:black;
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <div id=loadingBar>
+            <div id=inner></div>
+        </div>
+
+        <p>40%</p>
+    </body>
+</html>

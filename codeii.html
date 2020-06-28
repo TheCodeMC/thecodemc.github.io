@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+    <head lang="en">
+        <title>The Code II - TheCodeMC</title>
+        <meta charset="UTF-8">
+        <meta name=viewport content=width=device-width,user-scalable=no,initial-scale=1>
+
+        <link rel="stylesheet" href="css/page.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/glitch.css">
+
+        <script src="http://www.youtube.com/iframe_api"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <style>
+            #hang {
+                position: inherit;
+                width: 5%;
+                top: -15px;
+                left: 60%;
+
+                transform: rotate(45deg);
+                transform-origin: top left;
+
+
+                animation: swing 6s infinite;
+                animation-timing-function: ease-in-out;
+            }
+
+            @keyframes swing {
+                0% {transform: rotate(60deg)}
+                50% {transform: rotate(30deg)}
+                100% {transform: rotate(60deg)}
+            }
+
+            @media only screen and (max-width: 700px) {
+                #hang {
+                    top: -10px;
+
+                    width: 12%;
+                    left: 70%;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="lightbox">
+            <svg id="close" viewbox="0 0 100 100" width="100" height="100">
+                <circle cx="50" cy="50", r="50", fill="rgba(0, 0, 0, 0.8)"/>
+                <line x1="25" y1="25" x2="75" y2="75" style="stroke:rgb(200,200,200);stroke-width:10" stroke-linecap="round" />
+                <line x1="75" y1="25" x2="25" y2="75" style="stroke:rgb(200,200,200);stroke-width:10" stroke-linecap="round" />
+            </svg>
+            <img class="lightboxImg" src="images/codeii/screenshot1.jpg" alt="screenshot1">
+            <img class="lightboxImg" src="images/codeii/screenshot2.jpg" alt="screenshot2">
+            <img class="lightboxImg" src="images/codeii/screenshot3.jpg" alt="screenshot3">
+            <img class="lightboxImg" src="images/codeii/screenshot4.jpg" alt="screenshot4">
+            <img class="lightboxImg" src="images/codeii/screenshot5.jpg" alt="screenshot5">
+            <img class="lightboxImg" src="images/codeii/screenshot6.jpg" alt="screenshot6">
+            <img class="lightboxImg" src="images/codeii/screenshot7.jpg" alt="screenshot7">
+            <img class="lightboxImg" src="images/codeii/screenshot8.jpg" alt="screenshot8">
+            <img class="lightboxImg" src="images/codeii/screenshot9.jpg" alt="screenshot9">
+            <div id="dim"></div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav glitch" data-text="HOME">HOME</a></li>
+                <li><a href="codei.html" class="nav glitch" data-text="I" style="font-family: 'Noto Serif', serif;">I</a></li>
+                <li><a href="codeii.html" class="nav glitch" data-text="II" style="font-family: 'Noto Serif', serif;">II</a></li>
+                <li><a href="codeiii.html" class="nav glitch" data-text="III" style="font-family: 'Noto Serif', serif;">III</a></li>
+            </ul>
+            <img src="images/lamp.png" id="hang">
+        </nav>
+
+        <div id="logoContainer">
+            <!--Looping Logo Edited by Jarmzie @RealJarmzie-->
+            <div class="logo center">      
+                <svg id="playIcon" viewbox="0 0 100 100" width="100" height="100">
+                    <circle cx="50" cy="50", r="47", fill="rgba(0, 0, 0, 0)", stroke="rgba(0, 0, 0, 1)", stroke-width="7%"/>
+                    <circle cx="50" cy="50", r="47", fill="rgba(0, 0, 0, 0)", stroke="rgba(255, 255, 255, 1)", stroke-width="2%"/>
+                    <path d="M85 50 L32.5 80.31 L32.5 19.689 Z" , fill="rgba(0, 0, 0, 1)", stroke="rgba(0, 0, 0, 1)", stroke-width="7%"/>
+                    <path d="M85 50 L32.5 80.31 L32.5 19.689 Z" , fill="rgba(255, 255, 255, 1)", stroke="rgba(255, 255, 255, 1)", stroke-width="1%"/>
+                </svg>  
+                <div class="videoWrapper">
+                    <video id="logoVideo" class="center" muted autoplay>
+                        <source src="images/codei_logo.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="trailer center">
+                <div id="trailerWrapper" class="videoWrapper">
+                    <span id="vidID">6g0A2PS55pw</span>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div id="wrapper" class="center">
+                <ul>
+                    <li><div class="title">About</div>
+                        There it is, the sequel to the Code. If you haven't played that map yet, I suggest you play that first. If you have, don't expect anything like that map at all. Sure, this map still has puzzles and is still made of quartz, but the long hallway with doors is gone, and there is no hopper to throw a code in either. What does this map have then you ask? Well, if I say that, I'm going to spoil a lot. Let's say I took the "Infinite" level from the Code, and made a new map from it.
+                    </li>
+
+                    <li><div class="title">Map Info</div>
+                        <div class="panel">
+                            <div class="panel-left">
+                                <ul>
+                                    <li>Minecraft Version:</li>
+                                    <li>Developer:</li>
+                                    <li>Release Date:</li>
+                                    <li>Platform:</li>
+                                </ul>
+                            </div>
+
+                            <div class="panel-right">
+                                <ul>
+                                    <li>1.6.4</li>
+                                    <li>Jespertheend</li>
+                                    <li>July 8, 2013</li>
+                                    <li>Minecraft: Java Edition</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><div class="title">Images</div>
+                        <div class="gallery">
+                            <img class="responsive" src="images/codeii/screenshot1.jpg" alt="screenshot1">
+                            <img class="responsive" src="images/codeii/screenshot2.jpg" alt="screenshot2">
+                            <img class="responsive" src="images/codeii/screenshot3.jpg" alt="screenshot3">
+                            <img class="responsive" src="images/codeii/screenshot4.jpg" alt="screenshot4">
+                            <img class="responsive" src="images/codeii/screenshot5.jpg" alt="screenshot5">
+                            <img class="responsive" src="images/codeii/screenshot6.jpg" alt="screenshot6">
+                            <img class="responsive" src="images/codeii/screenshot7.jpg" alt="screenshot7">
+                            <img class="responsive" src="images/codeii/screenshot8.jpg" alt="screenshot8">
+                            <img class="responsive" src="images/codeii/screenshot9.jpg" alt="screenshot9">
+                        </div>
+                    </li>
+
+                    <li><div class="title">Videos</div>
+                        <div class="gallery">
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/XnkKMPycM2c" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UCigU7Uw0UAfS_gjuCsawhGQ" style="font-size: 20px;">QMagnet</a></div>
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/dCUWfMPk4sU" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UCshoKvlZGZ20rVgazZp5vnQ" style="font-size: 20px;">CaptainSparklez</a></div>
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/mOe3dhIWxq0" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UChd1FPXykD4pust3ljzq6hQ" style="font-size: 20px;">Thinknoodles</a></div>
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/0YNjsKXw7Sw" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UCzR6zrBt37TB5eP5WzsO1Ow" style="font-size: 20px;">RedCrafting</a></div>
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/SMT9bSJSc0w" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UC1E5KxksJlz6g6xMGH1UGpQ" style="font-size: 20px;">rsmalec</a></div>
+                            <div class="responsive" style="font-size: 20px;"><div class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/5dTwFEbvj9I" allowfullscreen></iframe></div>Video By <a target="_blank" href="https://www.youtube.com/channel/UCNn3pj-KH4RoDiFdOxUsvIA" style="font-size: 20px;">TLCheeto</a></div>
+                        </div>
+                    </li>
+
+                    <li><div class="title">Downloads</div>
+                        <div id="downloadWrapper" title="Download file The_Code">
+                            <a class="download" href="files/The_Code_II.zip" download style="font-family: 'Roboto Mono', monospace;"><i class="fa fa-file-o"></i> The_Code_II | 1,749 kb</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <div class="panel">
+                <div class="panel-left">
+                    <ul>
+                        <li>Jespertheend</li>
+                        <li><a target="_blank" href="https://jespertheend.com/" class="footerLink glitch" data-text="Website">Website</a> | <a target="_blank" href="https://twitter.com/Jespertheend/" class="footerLink glitch" data-text="Website">Twitter</a></li>
+                    </ul>
+                </div>
+
+                <div class="panel-right">
+                    <ul>
+                        <li>VeryLyfeless</li>
+                        <li><a target="_blank" href="twitch.tv/VeryLyfeless" class="footerLink glitch" data-text="Twitch">Twitch</a> | <a target="_blank" href="https://discord.gg/jezxFYv" class="footerLink glitch" data-text="Discord">Discord</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/page.js"></script>
+    </body>
+</html>
