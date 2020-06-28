@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
-    document.location = document.location.HREF+"?code=35792";
+    url = document.location.HREF+"?code=35792";
+    window.history.replaceState(null, "", url);
 
     id = 1;
 
