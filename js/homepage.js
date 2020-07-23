@@ -1,7 +1,11 @@
 $(document).ready(function(){
 
-    url = "index.html?code=35792";
-    window.history.replaceState(null, "", url);
+    if ('URLSearchParams' in window) {
+        var searchParams = new URLSearchParams(window.location.search)
+        searchParams.set("code", "35792");
+        var newRelativePathQuery = window.location.pathname + '?' + searchParams.toString();
+        history.pushState(null, '', newRelativePathQuery);
+    }
 
     id = 1;
 
