@@ -48,8 +48,9 @@ $(document).ready(function(){
             }
             else if ((currentMousePos.x > (screenWidth / 2) - 99 && currentMousePos.x < (screenWidth / 2) + 99) && (currentMousePos.y > (screenHeight / 1.32) && currentMousePos.y < (screenHeight / 1.32) + 72)) {
                 $("#paper").css("display", "none");
-                
+
                 //Javascipt is, without question, one of the dumbest languages I've ever worked with
+                //  That said, I also have no idea what I'm doing
                 $("#textBox").css("animation", "none")
                 setTimeout(function(){
                     $("#textBox").text("[The Code] checking...").css("animation", "message 4s");
@@ -66,7 +67,7 @@ $(document).ready(function(){
                             }else{
                                 $("#textBox").text("[The Code] incorrect code").css("animation", "message 4s");
                                 $("#paper").css("display", "block");
-                            } 
+                            }
                         }, 20);
                     },4000);
                 }, 20);
@@ -100,7 +101,7 @@ $(document).ready(function(){
             anvilSound.volume = 0.5;
             anvilSound.play();
     }
-    
+
 });
 
 function hashCode (str){
